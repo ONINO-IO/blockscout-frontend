@@ -199,7 +199,7 @@ export default function useNavItems(): ReturnType {
         isActive: pathname.startsWith('/app'),
       } : null,
       config.features.stats.isEnabled ? {
-        text: 'Charts & stats',
+        text: 'Charts & Stats',
         nextRoute: { pathname: '/stats' as const },
         icon: 'stats',
         isActive: pathname === '/stats',
