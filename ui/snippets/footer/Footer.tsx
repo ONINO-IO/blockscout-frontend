@@ -147,7 +147,7 @@ const Footer = () => {
       return (
         <Box gridArea={gridArea}>
           <Text mt={3} fontSize="xs">
-            ONINO Testnet Explorer
+            ONINO Testnet Block Explorer | Explore Transactions, Blocks, Accounts and More
           </Text>
           <VStack spacing={1} mt={6} alignItems="start">
             {apiVersionUrl && (
