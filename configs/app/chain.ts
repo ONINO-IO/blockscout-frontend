@@ -7,9 +7,9 @@ const chain = Object.freeze({
   name: getEnvValue('NEXT_PUBLIC_NETWORK_NAME'),
   shortName: getEnvValue('NEXT_PUBLIC_NETWORK_SHORT_NAME'),
   currency: {
-    name: getEnvValue('NEXT_PUBLIC_NETWORK_CURRENCY_NAME'),
+    name: 'tONI',
     weiName: getEnvValue('NEXT_PUBLIC_NETWORK_CURRENCY_WEI_NAME'),
-    symbol: getEnvValue('NEXT_PUBLIC_NETWORK_CURRENCY_SYMBOL'),
+    symbol: 'tONI',
     decimals: Number(getEnvValue('NEXT_PUBLIC_NETWORK_CURRENCY_DECIMALS')) || DEFAULT_CURRENCY_DECIMALS,
   },
   governanceToken: {
